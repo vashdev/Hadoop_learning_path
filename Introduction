@@ -1,2 +1,28 @@
 We will try to follow hadoops learning path, I started this because i cannot pay the fees they charge  in hadoop labs ! Lets see if i stay the course ., 
+Introduction and samples will be reffering to HAdoop v1 . since in Yarn the programs cna remain same but the way framework handles workloads is different so we will just skil thru yarn improvements over 1
+Our lession plan
+i
+Configuring a Hadoop 2.0 Development Environment -Lession1
+Putting data into HDFS using Java    -covered as part of lession1
+Write a distributed grep MapReduce application 
+Write an inverted index MapReduce application 
+Configure and use a combiner 
+Writing a custom combiner 
+Writing a custom partitioner 
+Globally sort output using the TotalOrderPartitioner 
+Writing a MapReduce job whose data is sorted using a composite key 
+Writing a custom InputFormat class 
+Writing a custom OutputFormat class 
+Compute a simple moving average of historical stock price data 
+Use data compression 
+Define a RawComparator 
+Perform a map-side join 
+Using a Bloom filter 
+Unit testing a MapReduce job 
+Import data into HBase 
+Writing an HBase MapReduce job 
+Writing a User-Defined Pig Function 
+Writing a User-Defined Hive Function 
+Defining an Oozie workflow 
+
 

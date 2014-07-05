@@ -1,0 +1,174 @@
+Hadoop2 short and sweet 
+In Hadoop 2.0, the JobTracker and TaskTracker no longer exist and have been replaced by three components:
+ResourceManager: a scheduler that allocates available resources in the cluster amongst the competing applications. 
+NodeManager: runs on each node in the cluster and takes direction from the ResourceManager. It is responsible for managing resources available on a single node. 
+ApplicationMaster: an instance of a framework-specific library, an ApplicationMaster runs a specific YARN job and is responsible for negotiating resources from the ResourceManager and also working with the NodeManager to execute and monitor Containers. 
+YARN is not the only new major feature of Hadoop 2.0. HDFS has undergone a major transformation with a collection of new features that include:
+NameNode HA: automated failover with a hot standby and resiliency for the NameNode master service. 
+Snapshots: point-in-time recovery for backup, disaster recovery and protection against use errors. 
+Federation: a clear separation of namespace and storage by enabling generic block storage layer. 
+Supports both Batch and interactive Modes
+
+NameNode HA is achieved using existing components like ZooKeeper along with new components like a quorum of JournalNodes and the ZooKeeper Failover Controller (ZKFC) processes:
+SETUP for Hadoop 1.0 
+We will setup hadoop 1.2 stable version. agian since yarn is just improvement in hadoop frameword and all programs should run 
+
+i
+we download 2.2.0 stable
+
+# set PATH in profile so it includes user's private bin if it exists 
+if [ -d "$HOME/bin" ] ; then 
+    PATH="$HOME/bin:$PATH" 
+fi 
+export HADOOP_HOME=/usr/local/hadoop 
+export PATH=${HADOOP_HOME}/bin:${PATH}
+important properties to set : temp dir path in core-site.xml which is used in intermediate processing also as root of log dires in default settings
+ex: core-site.xml
+<name>hadoop.tmp.dir</name>
+  <value>/app/hadoop/tmp</value>
+Next set mapred-site.xml
+mapred-site.xml
+  <name>mapred.job.tracker</name>
+<value>localhost:54311</value>
+Next set conf/hdfs-site.xml
+  <name>dfs.replication</name>
+  <value>1</value>
+
+finally Set your java_path in hadoop-env.sh in hadoop confg dir 
+i
+# The java implementation to use.  Required.
+export JAVA_HOME=/usr/local/java/jdk1.7.0_5
+
+import HTTP sites 
+ http://localhost:50070/dfshealth.jsp
+jobtracker http://localhost:50030/jobtracker.jsp /
+ http://localhost:50060/tasktracker.jsp
+We can check the filesystem health / job logs and other details via http. from above sites.
+
+START SERVICE
+cd $HADOOP_HOME/bin start-all.sh
+chekc if its running jps
+
+tcp        0      0 localhost:54311         localhost:36714         ESTABLISHED 
+tcp        0      0 localhost:36714         localhost:54311         ESTABLISHED 
+tcp        0      0 localhost:60171         localhost:50030         TIME_WAIT  
+ash@ubuntu:~/hadoop-1.2.1/conf$ ls 
+
+Run First application
+Its better to have sparate classes for map reduce and driver program
+Map class: WordCountMap.java
+Reduce Class: WordCountReduce.java
+Driver class: ToolMapReduce.java
+
+Compiling and running 
+
+1) cd /home/hduser/Hadoop_learning_path
+
+Create all .java files here with packagename 
+
+Introduction  Manifest.txt  mywordcount.jar  README.md  ToolMapReduce.java  wordcount  WordCountMap.java  WordCountReduce.java
+ex: WordCountMap.java
+package wordcount;
+
+2) Compiling:
+
+remember to include current dir in compiling javapath   or you wil get 
+ error: cannot find symbol
+ for class names.
+        job.setMapperClass(WordCountMap.class);
+
+
+javac -classpath /usr/local/hadoop/*:/usr/local/hadoop/lib/* -d . *.java
+
+this will create dir with package structure with only classfiles.
+ wordcount 
+
+3)
+
+ Create manifest with package path in the same dir as(package.mainclassname) jar :
+
+Main-Class: wordcount.ToolMapReduce
+
+do ls it should look like this .
+
+hduser@ubuntu:~/Hadoop_learning_path$ ls
+
+Introduction  Manifest.txt    README.md  ToolMapReduce.java  wordcount  WordCountMap.java  WordCountReduce.java
+
+
+4)
+
+Create jar 
+
+jar cfm mywordcount.jar Manifest.txt wordcount
+
+
+Final directory structure 
+
+hduser@ubuntu:~/Hadoop_learning_path$ ls wordcount/ .
+
+.:
+
+Introduction  Manifest.txt  mywordcount.jar  README.md  ToolMapReduce.java  wordcount  WordCountMap.java  WordCountReduce.java
+
+
+
+wordcount/:
+
+ToolMapReduce.class  WordCountMap.class  WordCountReduce.class
+
+
+5)
+
+Create input files
+ fs -copyFromLocal /home/hduser/nfsHadoopData/greatestofgreats.txt  /home/hduser/hadoopData/inputdir/
+ 
+hduser@ubuntu:~$ $HADOOP_HOME/bin/hadoop fs -ls /home/hduser/hadoopData/inputdir/ 
+Found 1 items 
+-rw-r--r--   1 hduser supergroup       3489 2014-06-30 02:10 /home/hduser/hadoopData/greatestofgreats.txt 
+
+6)
+
+Start Hadoop services:
+hduser@ubuntu:/usr/local/hadoop/bin$ . $HADOOP_HOME/bin/start-all.sh 
+Warning: $HADOOP_HOME is deprecated. 
+
+starting namenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-namenode-ubuntu.out 
+localhost: starting datanode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-datanode-ubuntu.out 
+localhost: starting secondarynamenode, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-secondarynamenode-ubuntu.out 
+starting jobtracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-jobtracker-ubuntu.out 
+localhost: starting tasktracker, logging to /usr/local/hadoop/libexec/../logs/hadoop-hduser-tasktracker-ubuntu.out 
+
+RUN 
+7)
+remember to inlcude the mapreduce classname in the run command.
+Your map and reduce programs should consider this because this will be the first argument to program not the parameters passed ., we have 3 parameters not 2
+
+hduser@ubuntu:~/Hadoop_learning_path$ 
+ $HADOOP_HOME/bin/hadoop jar /home/hduser/Hadoop_learning_path/mywordcount.jar  wordcount.ToolMapReduce /home/hduser/hadoopData/inputdir/ /home/hduser/hadoopData/wchdfsout 
+
+
+
+
+common Issues
+1)
+job.setInputFormatClass(TextInputFormat.class);
+
+          ^
+
+  required: Class<? extends InputFormat>
+
+  found: Class<TextInputFormat>
+
+It means you are using old mapred api's check package statements if you see mapred then remove
+Also Explicit package statements to the lowest depth may be necessary to remove all compile errors 
+ex:import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+instead of import org.apache.hadoop.mapreduce.*
+
+2) 
+Type mismatch in key from map: expected org.apache.hadoop.io.LongWritable, recieved org.apache.hadoop.io.Text
+
+ Verify the KEy value class from mapper and reducer 
+Verify the Class type setting in driver program 
+
+
