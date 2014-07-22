@@ -1,0 +1,1144 @@
+	1517	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:
+"".	4	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+"*"	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+"AS	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+"I	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+"Inventor	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+"License");	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+"Mike	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+"This	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+"Tim"	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+"TimBL",	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+"World-Wide	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+"alice,bob	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+"console"	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+"hadoop.root.logger".	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+"jks".	4	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+"surfing	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+#	168	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+#*.sink.ganglia.dmax=jvm.metrics.threadsBlocked=70,jvm.metrics.memHeapUsedM=40	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#*.sink.ganglia.slope=jvm.metrics.gcCount=zero,jvm.metrics.memHeapUsedM=both	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#Default	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#Security	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#datanode.sink.file.filename=datanode-metrics.out	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#datanode.sink.ganglia.servers=yourgangliahost_1:8649,yourgangliahost_2:8649	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#jobtracker.sink.file.filename=jobtracker-metrics.out	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#jobtracker.sink.ganglia.servers=yourgangliahost_1:8649,yourgangliahost_2:8649	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#log4j.appender.DRFA.MaxBackupIndex=30	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.appender.DRFA.layout.ConversionPattern=%d{ISO8601}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.appender.RFA.File=${hadoop.log.dir}/${hadoop.log.file}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.appender.RFA.MaxBackupIndex=30	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.appender.RFA.MaxFileSize=1MB	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.appender.RFA.layout.ConversionPattern=%d{ISO8601}	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.appender.RFA.layout=org.apache.log4j.PatternLayout	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.appender.RFA=org.apache.log4j.RollingFileAppender	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.logger.org.apache.hadoop.fs.FSNamesystem=DEBUG	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.logger.org.apache.hadoop.mapred.JobTracker=DEBUG	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#log4j.logger.org.apache.hadoop.mapred.TaskTracker=DEBUG	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#maptask.sink.file.filename=maptask-metrics.out	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#maptask.sink.ganglia.servers=yourgangliahost_1:8649,yourgangliahost_2:8649	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#namenode.sink.file.filename=namenode-metrics.out	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#namenode.sink.ganglia.servers=yourgangliahost_1:8649,yourgangliahost_2:8649	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#new	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+#reducetask.sink.file.filename=reducetask-metrics.out	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#reducetask.sink.ganglia.servers=yourgangliahost_1:8649,yourgangliahost_2:8649	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#tasktracker.sink.file.filename=tasktracker-metrics.out	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+#tasktracker.sink.ganglia.servers=yourgangliahost_1:8649,yourgangliahost_2:8649	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+$HADOOP_BALANCER_OPTS"	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+$HADOOP_DATANODE_OPTS"	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+$HADOOP_HOME/conf/slaves	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+$HADOOP_HOME/logs	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+$HADOOP_JOBTRACKER_OPTS"	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+$HADOOP_NAMENODE_OPTS"	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+$HADOOP_SECONDARYNAMENODE_OPTS"	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+$USER	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+%-5p	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+%c:	5	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+%c{2}	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+%c{2}:	3	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+%m%n	14	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:
+%p	8	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+'	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+'(i.e.	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+'*',	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+'default'	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+'man	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+(%F:%M(%L))	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+(ASF)	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+(CSAIL).[10]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+(HTTP)	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+(W3C),	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+(WSRI),[11]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+(born	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+(called	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+(fs,	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+(maximum-system-jobs	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+(short	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+(the	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+(with	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+*	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+*.sink.file.class=org.apache.hadoop.metrics2.sink.FileSink	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+*.sink.ganglia.class=org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+*.sink.ganglia.class=org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+*.sink.ganglia.period=10	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+*.sink.ganglia.supportsparse=true	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+,	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+-	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+-->	17	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+-1	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+-o	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+...	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+/tmp	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+100	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+1000.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+1955),	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+1989,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+1989,[4]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+1990,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+1995	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+1995.[28]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+2	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+2.0	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+2004,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+2009,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+2012	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+25%	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+25.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+3.0	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+3.1	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+30-day	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+33%	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+4	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+50%	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+8	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+80,000	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+<!--	17	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+</allocations>	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+</body>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+</configuration>	8	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+</description>	34	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+</html>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+</property>	47	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+</table>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+</tr>	2	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+</value>	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+</xsl:for-each>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+</xsl:stylesheet>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+</xsl:template>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<?xml	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+<?xml-stylesheet	7	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+<allocations>	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+<body>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<configuration>	8	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+<description>	5	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+<description>...	1	304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:
+<description>ACL	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<description>If	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<description>Keystore	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<description>Maximum	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<description>Must	2	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<description>Number	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<description>Optional.	8	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<description>Percentage	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<description>The	10	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<description>Truststore	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<description>directory	1	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:
+<html>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<name>dfs.replication</name>	1	251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:
+<name>fs.default.name</name>	1	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:
+<name>hadoop.tmp.dir</name>	1	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:
+<name>mapred.capacity-scheduler.default-init-accept-jobs-factor</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.default-maximum-active-tasks-per-queue</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.default-maximum-active-tasks-per-user</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.default-minimum-user-limit-percent</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.default-supports-priority</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.default-user-limit-factor</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.init-poll-interval</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.init-worker-threads</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.maximum-system-jobs</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.queue.default.capacity</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.queue.default.init-accept-jobs-factor</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.queue.default.maximum-capacity</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.queue.default.maximum-initialized-active-tasks-per-user</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.queue.default.maximum-initialized-active-tasks</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.queue.default.minimum-user-limit-percent</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.queue.default.supports-priority</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.capacity-scheduler.queue.default.user-limit-factor</name>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<name>mapred.job.tracker</name>	1	304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:
+<name>mapred.queue.default.acl-administer-jobs</name>	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+<name>mapred.queue.default.acl-submit-job</name>	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+<name>security.admin.operations.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>security.client.datanode.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>security.client.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>security.datanode.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>security.inter.datanode.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>security.inter.tracker.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>security.job.submission.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>security.namenode.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>security.refresh.policy.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>security.task.umbilical.protocol.acl</name>	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<name>ssl.client.keystore.keypassword</name>	1	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+<name>ssl.client.keystore.location</name>	1	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+<name>ssl.client.keystore.password</name>	1	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+<name>ssl.client.keystore.type</name>	1	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+<name>ssl.client.truststore.location</name>	1	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+<name>ssl.client.truststore.password</name>	1	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+<name>ssl.client.truststore.type</name>	1	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+<name>ssl.server.keystore.keypassword</name>	1	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<name>ssl.server.keystore.location</name>	1	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<name>ssl.server.keystore.password</name>	1	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<name>ssl.server.keystore.type</name>	1	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<name>ssl.server.truststore.location</name>	1	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<name>ssl.server.truststore.password</name>	1	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<name>ssl.server.truststore.type</name>	1	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<property>	47	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+<table	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<td><a	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<td><xsl:value-of	2	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<td>description</td>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<td>name</td>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<td>value</td>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<tr>	2	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<value>	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+<value>*</value>	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+<value>-1</value>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<value>/app/hadoop/tmp</value>	1	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:
+<value>100000</value>	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<value>100</value>	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<value>10</value>	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<value>1</value>	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:
+<value>200000</value>	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<value>3000</value>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<value>5000</value>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<value>5</value>	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<value></value>	10	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<value>false</value>	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+<value>hdfs://localhost:54310</value>	1	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:
+<value>jks</value>	4	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+<value>localhost:54311</value>	1	304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:
+<xsl:for-each	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<xsl:output	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<xsl:stylesheet	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+<xsl:template	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+A	12	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+ACL	13	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+ACM	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+ANY	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+ASF	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+Academy	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Add	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+AdminOperationsProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+All	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Apache	8	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+Appender	13	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:
+April	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Artificial	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Audit	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Award),	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+BASIS,	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+Below	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+Berners-Lee	3	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Berners-Lee,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+British	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+By	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+CERN	3	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+CLASSPATH	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+CONDITIONS	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+Cailliau	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Cailliau,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Capacity	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+CapacityScheduler.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+Center	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Chair	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+ClientDatanodeProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+ClientProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+Collective	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Comma	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+Command	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Computer	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+ConnectTimeout=1	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Consortium	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Control	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Counter	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Creating	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Current	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Custom	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+DFBCS	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+DN.	2	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+Daily	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+DatanodeProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+Date	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Debugging	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Default	10	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+Define	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+DistributedFileSystem.	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+During	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+ENQUIRE	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Each	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+Elizabeth	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Empty	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Event	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+EventCounter	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Extra	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+FREng,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+FRS,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+FRSA,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+FSNamesystem	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Fair	2	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+File	5	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+For	13	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+Foundation	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+Foundation,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Founders	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+French..."	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Ganglia	3	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+Greek	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+HADOOP_BALANCER_OPTS="-Dcom.sun.management.jmxremote	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_CLASSPATH=	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_CLIENT_OPTS	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_DATANODE_OPTS="-Dcom.sun.management.jmxremote	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_HEAPSIZE=2000	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_IDENT_STRING=$USER	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_JOBTRACKER_OPTS="-Dcom.sun.management.jmxremote	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_LOG_DIR=${HADOOP_HOME}/logs	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_MASTER=master:/home/$USER/src/hadoop	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_NAMENODE_OPTS="-Dcom.sun.management.jmxremote	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_NICENESS=10	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_OPTS	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_OPTS=-Djava.net.preferIPv4Stack=true	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_OPTS=-server	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_PID_DIR=/var/hadoop/pids	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_SECONDARYNAMENODE_OPTS="-Dcom.sun.management.jmxremote	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_SLAVES=${HADOOP_HOME}/conf/slaves	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_SLAVE_SLEEP=0.1	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_SSH_OPTS="-o	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HADOOP_TASKTRACKER_OPTS=	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+HH:mm:ss}	3	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+HTTPd	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Hadoop	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Hadoop-specific	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Hadoop.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+He	6	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+His	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Hypertext	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+I	5	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+II	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+INFO	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+IS"	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+If	9	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+In	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Initialization	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+Initiative	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Intelligence	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Intelligence.[12][13]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+InterDatanodeProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+InterTrackerProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+Internet	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Internet"	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Internet,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Irrespective	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+It	4	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+Its	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+JAVA_HOME	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+JAVA_HOME.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+JAVA_HOME=/usr/local/java/jdk1.7.0_51	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Java	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Jets3t	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Job	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+JobSubmissionProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+JobTracker.	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+John	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+June	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+KBE,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+KIND,	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+LCD	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Laboratory	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+License	18	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+License,	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+License.	12	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+Licensed	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+LogLevel	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+LogMessage	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Logfile	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+LoggerName	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Logging	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+London	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+MB.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+MIT	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Map/Reduce	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+March	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Metrics.	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Mike	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Most	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Must	4	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+NN	2	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+NOTE:	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+NOTICE	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+NamenodeProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+National	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+NeXT	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+NeXTSTEP	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+NeXTStep	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+November	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Null	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+OF	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+OM,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+OR	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+Olympic	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Olympics	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Once	4	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+One	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+Optional.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Otherwise	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Pattern	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Protocol	3	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Put	4	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:
+Queen	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+RefreshAuthorizationPolicyProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+Required.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Research	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Robert	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Rolling	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Rollver	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Scheduler	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+Scheduler.	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+Science	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Sciences.[15][16]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Seconds	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+See	10	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+SendEnv=HADOOP_CONF_DIR"	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Sendall	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Sendall.[27]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Sends	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Set	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Should	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+Sir	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+So	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+Software	3	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+Stadium.[17]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+States	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Summary	3	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Summer	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+System	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+TaskLog	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+TaskUmbilicalProtocol,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+The	37	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+This	8	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+Threshold	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Tim	3	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Tim's	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Timothy	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Transfer	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Transmission	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Trap	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+URI</description>	1	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:
+United	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Unless	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+Unset	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Use	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+Version	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+WARRANTIES	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+WITHOUT	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+WYSIWYG	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Web	6	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Web"	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Web".	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Web's	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Web,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Web.	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+Web[25]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+When	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Where	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+Wide	6	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+With	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+World	6	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+WorldWideWeb,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+You	9	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+[Berners-Lee].	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+[prefix].[source|sink|jmx].[instance].[options]	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+a	74	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+about	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+above	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+absence	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+absolute	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+abstraction,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+accepted	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+accordingly.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+account	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+acls	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+acquire	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+across	4	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+act	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+added	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+additional	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+administrators	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+advisory	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+affected.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+after	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+again	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+agreed	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+agreements.	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+all	23	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+allocated	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+allocations	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+allow	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+allowed	6	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+allowed.</description>	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+already.	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+also	4	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+amount	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+an	9	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+and	57	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+and—ta-da!—the	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+any	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+appeared	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+appended	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+appender	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+applicable	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+applied	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+applies	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+appropriate	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+are	28	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+around	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+arrive	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+as	5	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+as,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+assigned.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+associate	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+at	18	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+attached	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+attack.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+audience.[17]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+audit	2	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+authorization	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+available	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+backup	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+backups	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+based	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+be	41	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+because	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+been	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+before	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+being	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+best	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+between	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+beyond	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+blank.	12	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+block	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+board	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+border="1">	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+browser.	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+browsers	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+browsing/authoring!	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+built	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+buys	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+by	54	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+cafeteria,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+can	25	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+cannot	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+capacity	8	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+capacity.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+catching	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+ceremony,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+certain	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+chairs	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+change.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+client	3	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+client-to-datanode	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+clients	3	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+cluster	6	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+cluster's	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+cluster,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+cluster.	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+clusters,	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+code	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+comma	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+comma-separated	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+commands	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+commands.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+communciate	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+communicate	4	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+communication	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+competition	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+complete	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+compliance	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+computer	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+concurrently,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+concurrently.	5	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+config	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+configuration	7	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+configuration,	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+configuration.	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+configure	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+configured	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+connect	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+console	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+consume	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+contains	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+continued	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+contribute.	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+contributor	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+convention,such	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+copy	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+copyright	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+correctly	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+could	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+counts	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+create	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+cube	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+curtail	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+daemon	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+daemon).	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+daemons.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+daily:	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+data	1	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:
+data</description>	1	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:
+datanodes	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+decisions	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+decisions.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+default	10	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+default,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+default.	9	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+defined	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+defines	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+depends	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+depriving	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+designed	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+desperation,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+details	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+details,	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+determine	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+determined	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+development	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+development.	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+dfs,	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+dfsadmin	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+different	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+difficult	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+director	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+directory	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+disk.	4	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+distcp	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+distcp.	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+distributed	15	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+do	4	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+documentation	4	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+domain	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+don't	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+during	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+e.g.	12	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+e.g.,	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+editor	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+either	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+elected	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+elements.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+enabled	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+enforces	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+environment	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+equal	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+etc)	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+etc.	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+evaluation,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+events	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+everyone",[18]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+example,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+exceed	4	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+except	7	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+excess	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+explained	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+export	19	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+express	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+false	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+faster	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+few	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+file	15	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+file,	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+file.	5	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+files	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+find	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+first	3	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+follow	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+following	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+for	49	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+foreign	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+format	3	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+format:	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+former	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+founder	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+from	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+from.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+fsck,	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+functioned	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+generalising,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+generation	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+get	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+given	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+gives	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+going	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+governing	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+greater	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+group	25	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+group1,group2.	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+guarantees	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+had	3	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+hadoop	5	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:
+hadoop.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+hadoop.log.dir.	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+hadoop.log.dir=#configured	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+hadoop.log.dir=.	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.log.file=hadoop.log	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.mapreduce.jobsummary.log.file	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.mapreduce.jobsummary.log.file=hadoop-mapreduce.jobsummary.log	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.mapreduce.jobsummary.logger=${hadoop.root.logger}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.mapreduce.jobsummary.logger=INFO,JSA	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.metrics.log.level=INFO	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.root.logger=INFO,console	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.security.log.file=SecurityAuth-${user.name}.audit	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.tasklog.iscleanup=false	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.tasklog.logsRetainHours=12	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.tasklog.noKeepSplits=4	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.tasklog.purgeLogSplits=true	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.tasklog.taskid=null	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+hadoop.tasklog.totalLogFileSize=100	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+have	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+he	5	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+heap	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+help	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+here.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+higher	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+his	3	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+his/her	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+holder	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+honoured	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+host:path	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+hosts.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+how	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+href="configuration.xsl"?>	7	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+http://hadoop.apache.org/common/docs/r0.20.205.0/fair_scheduler.html.	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+http://www.apache.org/licenses/LICENSE-2.0	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+hypertext	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+hypertext,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+i	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+idea	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+ideas	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+if	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+imaginary	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+implementation	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+implemented	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+implied.	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+implies	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+important	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+imposed.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+in	55	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:
+in-effect.	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+includes	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+increase	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+information	3	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+initial	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+initialize	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+initialize.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+initialized	4	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+initialized,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+instance	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+instantly	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+inter-datanode	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+into	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+inventor	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+involved	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+irrespective	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+is	69	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+it	8	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+its	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+java	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+job	11	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+job's	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+job,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+jobs	23	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+jobs,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+jobs.	3	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+jobtracker	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+jobtracker.	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+just	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+kill	2	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+knighted	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+known	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+language	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+large	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+larger	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+later.	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+latter	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+law	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+lead	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+lesser	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+level	2	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+levels	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+library	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+license	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+licenses	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+lights	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+like	5	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+limit	8	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+limit.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+limitations	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+limited	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+limits	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+list	27	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+log	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+log4j.additivity.org.apache.hadoop.mapred.JobInProgress$JobSummary=false	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.DRFA.DatePattern=.yyyy-MM-dd	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.DRFA.File=${hadoop.log.dir}/${hadoop.log.file}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.DRFA.layout.ConversionPattern=%d{ISO8601}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.DRFA.layout=org.apache.log4j.PatternLayout	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.DRFA=org.apache.log4j.DailyRollingFileAppender	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.DRFAS.File=${hadoop.log.dir}/${hadoop.security.log.file}	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.DRFAS.layout.ConversionPattern=%d{ISO8601}	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.DRFAS.layout=org.apache.log4j.PatternLayout	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.DRFAS=org.apache.log4j.DailyRollingFileAppender	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.EventCounter=org.apache.hadoop.log.metrics.EventCounter	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.JSA.DatePattern=.yyyy-MM-dd	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.JSA.File=${hadoop.log.dir}/${hadoop.mapreduce.jobsummary.log.file}	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.JSA.layout.ConversionPattern=%d{yy/MM/dd	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.JSA.layout=org.apache.log4j.PatternLayout	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.JSA=org.apache.log4j.DailyRollingFileAppender	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.NullAppender=org.apache.log4j.varia.NullAppender	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.TLA.isCleanup=${hadoop.tasklog.iscleanup}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.TLA.layout.ConversionPattern=%d{ISO8601}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.TLA.layout=org.apache.log4j.PatternLayout	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.TLA.taskId=${hadoop.tasklog.taskid}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.TLA.totalLogFileSize=${hadoop.tasklog.totalLogFileSize}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.TLA=org.apache.hadoop.mapred.TaskLogAppender	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.console.layout.ConversionPattern=%d{yy/MM/dd	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.console.layout=org.apache.log4j.PatternLayout	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.console.target=System.err	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.appender.console=org.apache.log4j.ConsoleAppender	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.logger.SecurityLogger.additivity=false	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.logger.SecurityLogger=OFF,console	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.logger.org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit=WARN	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.logger.org.apache.hadoop.mapred.JobInProgress$JobSummary=${hadoop.mapreduce.jobsummary.logger}	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.logger.org.apache.hadoop.metrics2=${hadoop.metrics.log.level}	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.logger.org.jets3t.service.impl.rest.httpclient.RestS3Service=ERROR	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.rootLogger=${hadoop.root.logger},	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+log4j.threshhold=ALL	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+logged	1	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+logger	7	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+logging	3	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+long	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+made	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+management	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+manager	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+manager,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+map	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+mapred.acls.enabled	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+mapred.capacity-scheduler.queue.<queue-name>.property-name.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+mapred.local.dir.	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+mapred.local.dir=#configured	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+mapred.tasktracker.tasks.sleeptime-before-sigkill=#sleep	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+mapreduce.cluster.administrators	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+mapreduce.tasktracker.group.	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+mapreduce.tasktracker.group=#configured	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+master	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+match="configuration">	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+max	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+maximum	6	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+maximum-capacity	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+may	12	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+means	13	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+member	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+mentioned	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+mere	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+messages	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+method="html"/>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+metrics	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+mid	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+midnight	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+miliseconds	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+minimum	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+modify	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+months,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+more	8	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+mradmin	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+mradmins	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+much	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+much,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+multifont	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+multipe	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+multiple	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+mythology.	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+name	3	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+name="{name}"><xsl:value-of	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+namenode	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+namenode.	2	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+names	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+names.	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+naming	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+nature	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+nice'.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+no	8	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+nodes	2	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+nodes.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+not	7	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+note	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+number	14	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+objects,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+obtain	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+occupying	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+of	102	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+offers	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+on	21	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+one	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+only	5	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+opening	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+operating	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+operation.	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+operations	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+optional.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+options	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+options.	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+or	18	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+org.apache.hadoop.metrics2	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+other	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+others	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+otherwise	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+out	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+overridden	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+overrides	4	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:
+oversees	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+owner	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+ownership.	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+package.html	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+parameters	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+parent	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+part	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+particular	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+passive	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+paths.	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+people	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+per-user,	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+percentage	4	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+permissions	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+person,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+pid	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+pioneering	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+point	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+policy	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+poll	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+poller	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+pool	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+possibility	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+possibly	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+potential	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+pre-emption,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+priorities	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+priority	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+process	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+processes.	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+produced	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+pronounce	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+properties	4	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+property	13	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+proposal	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+proposes	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+protocol	3	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+prototype	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+provides	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+put	2	471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+qualities	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+querying	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+queue	12	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+queue's	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+queue,	5	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+queue-capacity	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+queue-capacity)	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+queue.	6	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+queued	4	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+queues	6	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+queues.	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+racks	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+really	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+recovery.	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+reduce	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+refresh	2	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+regarding	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+related	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+remote	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+representing	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+required	7	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+researcher	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+resource	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+resources	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+resources.	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+revision	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+rolled	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+root	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+rootlogger	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+rsync'd	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+rsyncs	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+run	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+running	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+runtime	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+same	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+sample	1	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+scheduler	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+scheduler.	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+scheduling	4	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+scientist,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+secondary	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+seconds	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+security	3	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+select="description"/></td>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+select="name"/></a></td>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+select="property">	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+select="value"/></td>	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+send	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+sending	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+senior	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+sent	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+sent.	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+separate	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+separated	15	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+server	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+server,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+service	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+sessions	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+set	9	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+setting	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+settings	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+severity	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+shared	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+should	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+side	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+sig	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+sigterm	1	382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+similar	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+single	5	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+site-specific	4	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:
+situation	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+size	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+slave	3	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+sleep	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+slots	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+slots.	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+so	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+software	8	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+some	3	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+sometime	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+space	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+space),	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+special	12	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+specific	7	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+specified	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+specified.	6	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+spelled	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+ssh	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+started	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+status	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+step	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+stored.	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+string	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+submission,	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+submit	4	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+submits	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+submitted	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+successful	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+summary	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+support	2	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+supportsparse	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+suppose	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+symlink	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+syntax:	1	2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+system	8	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+system),	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+system.	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+system."[26]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+systems	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+take	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+taken	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+task	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+tasks	3	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+tasks,	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+tasktracker.	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+tasktrackers	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+technology	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+template	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+terms	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+text	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+than	6	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+thanks	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+that	12	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+the	184	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+them	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+them.	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+then	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+there	4	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+they	4	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+thing	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+thinking	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+third	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+this	33	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+those	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+thread	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+threads	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+time	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:
+time,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+timestamp.	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+to	94	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:
+together.	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+true,	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+true.	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+try	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+tweeted	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+two	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+type="text/xsl"	7	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+under	20	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+underlying	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+updating	1	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+use	13	5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+use,	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+use.	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+used	21	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+useful	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+user	41	327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+user's	4	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+user1,user2	2	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+users	15	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+users,	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+users,wheel".	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+value	26	1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:382	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/taskcontroller.cfg:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+value.	2	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+values	5	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+variable	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+variables	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+various	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+vary	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+version="1.0">	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+version="1.0"?>	10	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:471	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/core-site.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:251	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hdfs-site.xml:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:304	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-site.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:327	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/fair-scheduler.xml:
+very	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+via	4	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+view	1	2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+vintage	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+want	2	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+was	10	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+web	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+web,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+when	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+where	2	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+where,	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+which	22	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+who	3	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+whom	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+will	8	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:2033	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/mapred-queue-acls.xml:
+windows,	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+with	15	4644	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+without	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+work	2	2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:
+work.[14]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+worker	1	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+working	2	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+would	7	7457	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/capacity-scheduler.xml:
+writing,	6	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:
+written	1	2483	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-env.sh:
+wrote	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform"	1	1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:
+year.[5][6][7][8][9]	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+yet	1	3489	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/greatestofgreats.txt:
+you	8	3890	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties:5018	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:2042	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-client.xml.example:1095	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/configuration.xsl:1994	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/ssl-server.xml.example:2052	hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-metrics2.properties:

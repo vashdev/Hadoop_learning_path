@@ -1,0 +1,38 @@
+under logs you have a jobname_conf.xml
+/usr/local/hadoop/logs
+job_201407151852_0001_conf.xml
+it has all framework properties
+ex:<property><!--Loaded from /app/hadoop/tmp/mapred/local/jobTracker/job_201407151852_0001.xml--><name>dfs.replication.considerLoad</name><value>true</value></property>
+
+onelevel below in userlogs we have job logs
+under each mapper and reducer have its own dir
+
+hduser@ubuntu:/app/hadoop/tmp/mapred/local/userlogs/job_201407150612_0012/attempt_201407150612_0012_m_000016_0$ ls
+hduser@ubuntu:/app/hadoop/tmp/mapred/local/userlogs/job_201407150612_0012/attempt_201407150612_0012_m_000016_0$ ls -ltr
+total 3
+-rw-r--r-- 1 hduser hadoop    0 Jul 15 08:01 stdout
+-rw-r--r-- 1 hduser hadoop    0 Jul 15 08:01 stderr
+-rw-r--r-- 1 hduser hadoop 1305 Jul 15 08:01 syslog
+-rw-r--r-- 1 hduser hadoop  146 Jul 15 08:01 log.index
+
+
+
+ so final structure is
+/usr/local/hadoop/logs/job_201407151852_0001_conf.xml
+
+/usr/local/hadoop/logs/userlogs
+				/ DIR with jobname
+							/ DIR for each mapper and reducer + job-acls.xml
+											/log.index  stderr  stdout  syslog
+
+
+
+if you put system.out.println in mapper /reducer fo to indiv mapper dir in the logs and look for stdout or stderr depending on sysout or syserr
+ex:
+hduser@ubuntu:/usr/local/hadoop/logs/userlogs/job_201407151852_0002/attempt_201407151852_0002_m_000001_0$ head -5 stdout
+ Map Split::  hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:0+5018
+ Value tostring: #   Licensed under the Apache License, Version 2.0 (the "License");
+ Path set is hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties
+Word to set is #
+ word set is #
+										
