@@ -1,0 +1,1 @@
+hadoop jar mrss-0.1.jar demo.SsJob -Dmapred.input.dir=data-stock -Dmapred.output.dir=result-stock

@@ -1,0 +1,11 @@
+custom partitioner
+the exampel is from http://hadooptutorial.wikispaces.com/Custom+partitioner
+We already written cusotm partitioner as part of lession 5 secoundary sort where we overwrite get partitions methos by extending partioner class
+
+This perticuler example shows how we cna use custom partitioner ot solve a differnet type of problem
+We will nto dig into this becuase it sjust repeat of the other
+points ot remember
+The number of partitions is equal to the number of reducers
+overwrite Partitioner class getpartitions method 
+Reducer and partitiners get inpu data form MApper context.write
+Finally we use setPartitionerclass in job 

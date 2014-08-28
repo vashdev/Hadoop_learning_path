@@ -1,4 +1,4 @@
-package grep;
+package customcombiner;
 
 import org.apache.hadoop.util.*;
 import java.io.IOException;
@@ -17,14 +17,14 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat; 
-public class ToolGrep extends Configured implements Tool {
+public class ToolMapReduce extends Configured implements Tool {
  
     public static void main(String[] args) throws Exception {
-System.out.println("debug:Input path -args 0 "+ args[0]);
- System.out.println("debug:output path -args 1"+ args[1]);
-System.out.println("number of Parameter passed "+ args.length);
+System.out.println("debug:Input path "+ args[0]);
+System.out.println("debug:output path "+ args[1]);
+
  
-        int res = ToolRunner.run(new Configuration(), new grep.ToolGrep(), args);
+        int res = ToolRunner.run(new Configuration(), new customcombiner.ToolMapReduce(), args);
 
        System.exit(res);
     }
@@ -32,21 +32,18 @@ System.out.println("number of Parameter passed "+ args.length);
     @Override
     public int run(String[] args) throws Exception {
  
-        // When implementing tool Configuration obj can be used to pass around parameters
+        // When implementing tool
         Configuration conf = this.getConf();
  
-  // if you get NULLpointerissue for options in mapper - REMEMBER -D should be the first argument to the JAR
-String s_ptrn=conf.get("mapred.mapper.regex");
-System.out.println("debug: in Tool Class mapred.mapper.regex "+s_ptrn + "\n");
- // conf.set("mapred.mapper.regex",args[2]);
         // Create job
-        Job job = new Job(conf, "Grep Job");
-        job.setJarByClass(ToolGrep.class);
+        Job job = new Job(conf, "Tool Job");
+        job.setJarByClass(ToolMapReduce.class);
  
         // Setup MapReduce job
-        job.setMapperClass(RegexMapper.class);
-        job.setReducerClass(LongSumReducer.class);
- 
+        // Do not specify the number of Reducer
+        job.setMapperClass(WordCountMap.class);
+        job.setReducerClass(WordCountReduce.class);
+        job.setCombinerClass(WordCountCombiner.class);
         // Specify Correct key / value from map/reduce
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
@@ -61,9 +58,6 @@ System.out.println("debug: in Tool Class mapred.mapper.regex "+s_ptrn + "\n");
        job.setOutputFormatClass(TextOutputFormat.class);
  
     System.out.println("output path "+ args[1]);
-   //  to sort we will just make reducer to 1 so frameowrk can sort automatically
-    // Specify number of reducers
-            job.setNumReduceTasks(1);
         // Execute job and return status
         return job.waitForCompletion(true) ? 0 : 1;
     }

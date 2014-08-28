@@ -1,0 +1,6 @@
+Write a custom input and output format for a MapReduce job. 
+
+Hadoop comes with standard Standard input formats , TextInputFormat being one to read text files, it also provides other wrappers to read different fiel formats
+ex:Sequencefile DBinputformats , generic  FileInputFormat is the base class for all file-based InputFormats.
+
+First lets use DBinputformat 

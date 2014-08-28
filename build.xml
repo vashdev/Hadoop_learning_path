@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Secondary Sort Demo">
+	<description>Build file for Secondary Sort Demo</description>
+	<property file="build.properties"/>
+	<path id="complete.classpath">
+		<fileset dir="${libs.dir}"/>
+	</path>
+	
+	<target name="init">
+		<mkdir dir="${bin.dir}"/>
+	</target>
+	
+	<target name="compile" depends="init">
+		<javac srcdir="${src.dir}" destdir="${bin.dir}" classpathref="complete.classpath" debug="true" 
+			debuglevel="lines,vars,source" includeantruntime="false"
+		/>
+	</target>
+	
+	<target name="jar" depends="compile" description="creates jar file">
+		<jar destfile="${libs.dir}/${jar.file}" basedir="${bin.dir}"/>
+	</target>
+	
+	<target name="clean" description="cleans output files and directories">
+		<delete dir="${bin.dir}" failonerror="true"/>
+		<delete dir="${javadoc.dir}" failonerror="true"/>
+		<delete dir="${dist.dir}"/>
+		<delete file="${libs.dir}/${jar.file}" failonerror="false"/>
+		<delete file="${src.distribution.file}" failonerror="false"/>
+	</target>
+	
+	<target name="build-for-local-hadoop" depends="clean, jar">
+		<copy file="${libs.dir}/${jar.file}" todir="${hadoop.dir}" overwrite="true"/>
+		<delete dir="${hadoop.log.dir}"/>
+		<mkdir dir="${hadoop.log.dir}"/>
+	</target>
+	
+	<target name="javadoc" description="makes javadocs">
+		<javadoc sourcepath="${src.dir}"
+			destdir="${javadoc.dir}" 
+			packagenames="*"
+			windowtitle="${project.title} Documentation"
+			doctitle="&lt;h1&gt;${project.title} Documentation&lt;/h1&gt;"
+			author="true" private="true" version="true" 
+			breakiterator="true"
+			bottom="Copyright &#169; 2012" verbose="false" 
+			classpathref="complete.classpath" />
+	</target>
+	
+	<target name="dist-src" description="create source distribution" depends="clean">
+		<mkdir dir="${dist.dir}"/>
+		<copy todir="${dist.dir}/lib" overwrite="true">
+			<fileset dir="${libs.dir}"/>
+		</copy>
+		<copy todir="${dist.dir}/src" overwrite="true">
+			<fileset dir="${src.dir}"/>
+		</copy>
+		<copy todir="${dist.dir}" overwrite="true">
+			<fileset dir="." includes=".classpath, .project, build.properties, build.xml, LICENSE.txt, README.txt" />
+		</copy>
+		<copy todir="${dist.dir}/data" overwrite="true">
+			<fileset dir="data"/>
+		</copy>
+		<zip destfile="${src.distribution.file}" basedir="${dist.dir}"/>
+	</target>
+</project>

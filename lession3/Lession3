@@ -1,0 +1,73 @@
+Inverted Index
+An inverted index is a data structure that maps a
+word, or atomic search item, to the set of documents,
+or set of indexed units, that contain that word | its
+postings. An individual posting may be a binary in-
+dication of the presence of that word in a document,
+or may contain additional information, such as its fre-
+quency in that document and an off set for each oc-
+currence, required for various non-boolean search algo-
+rithms. 
+
+access to an inverted index is based on a single key
+onceptually, a B-tree maintains an ordered sequence
+as an n-ary branching balanced tree, where the tree re-
+sides on secondary storage rather than in main memory.
+
+
+
+reference: http://scholar.google.com/scholar_url?hl=en&q=http://ind3xeeer.googlecode.com/svn/trunk/Papers/10.1.1.41.4893.pdf&sa=X&scisig=AAGBfm2z3zqUMaIw0WcszCtAk5jTReb-ww&oi=scholarr
+Article by doug cutting
+
+
+from wikipedia
+Inverted index file contains docuemnts that contain the word
+Full Inverted index contain docuemnts + offset in the file
+ex:
+T[0] = "it is what it is"
+T[1] = "what is it"
+T[2] = "it is a banana"
+
+Inverted index
+"a":      {2}
+"banana": {2}
+"is":     {0, 1, 2}
+"it":     {0, 1, 2}
+"what":   {0, 1}
+
+
+Full inverted
+"a":      {(2, 2)}
+"banana": {(2, 3)}
+"is":     {(0, 1), (0, 4), (1, 1), (2, 1)}
+"it":     {(0, 0), (0, 3), (1, 2), (2, 0)} 
+"what":   {(0, 2), (1, 0)}
+
+Actually as per the paper by dough cutting above the output should be more like
+"a": 1:     {(2, 2)}
+"banana":1: {(2, 3)}
+"is": 4:    {(0, 1), (0, 4), (1, 1), (2, 1)}
+"it":  4:   {(0, 0), (0, 3), (1, 2), (2, 0)}
+"what": 2:  {(0, 2), (1, 0)}
+indicating total  number of times the overall word is used in the collection
+
+Implimenting:
+We need to use new collection classes to handle complex data types
+We also need ot use Sequence files to store the index so its easy to read by th emachine and manipulate . OR mapfiles that can read and write from the intermediate values ( it stores some intermediate keys so it can easily access a value)
+
+In the previous lession grep reducer was counting word occurance to implement inv index we need ot capture how many times the word occured in 1 file + which file(s) has those words 
+
+Reducer needs word as a key and list of filenames with this word as values; we can play aorund this values and capture intermediate list of how many times the word occured in each and overall count of word occurance
+
+Our previous mappers are sending word/count they shoudl send some form of word/filename
+
+So our final o/p 
+
+"alice,bob      10      4644    hdfs://localhost:54310/home/hduser/hadoopData/inputdir/hadoop-policy.xml:
+"console"       2       3890    hdfs://localhost:54310/home/hduser/hadoopData/inputdir/task-log4j.properties: 5018       hdfs://localhost:54310/home/hduser/hadoopData/inputdir/log4j.properties:
+
+etc., 
+our pimplimentation gives fieloffset along wiht number of times word appears and the files the word appear in.
+-its missing number of times word accurs within each file which we cna easily calculate by counting indiv element in collection 
+-also remember to format o/p just lke above hash eachvalue so we get a corresponding number
+
