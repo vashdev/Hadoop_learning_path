@@ -1,0 +1,14 @@
+Custom output 
+write multiplefiles based on input key
+simple overriding of one method by extending thea base class MultipleOutputFormat
+Source :http://grepalex.com/2013/05/20/multipleoutputs-part1/
+DOWNSIDE : its only good for mappers Not reducers , reducers wont be able to read these files
+All files have same format cant change format file to file
+Alternative 
+use MultipleOutputs class
+this works wiht both APIs
+Source:http://www.lichun.cc/blog/2013/11/how-to-use-hadoop-multipleoutputs/
+ MultipleOutputs.addNamedOutput method is used its usage:
+MultipleOutputs.addNamedOutput(job, fruitOutputName, TextOutputFormat.class, NullWritable.class, Text.class);
+
+

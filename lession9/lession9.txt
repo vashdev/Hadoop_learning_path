@@ -1,0 +1,12 @@
+DIST Cache
+	
+Add the fiel to be distributed in the driver code to the config object that can eb access via context
+        DistributedCache.addCacheFile(new URI("/home/hduser/hadoopData/StudentLname.dat"), job.getConfiguration());
+in mapper
+access the config via context
+and use Distrcache object to access local files
+
+	Configuration conf = context.getConfiguration();
+Path[] cacheFiles =  DistributedCache.getLocalCacheFiles(conf);
+
+

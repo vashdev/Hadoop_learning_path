@@ -6,3 +6,12 @@ AND
 By providing custom recordreader whos job is to use data within split to create  key value pairs
 
 i.e use a loop to add lines untill record delim is found in the split 
+
+Another task is to read multipel inputs from different mappers wiht different input format by same reducer
+
+use MultipleInputs.addInputPath(job, firstPath, FirstInputFormat.class, FirstMap.class);
+	MultipleInputs.addInputPath(job, sencondPath, SecondInputFormat.class, SecondMap.class);
+where FirstInputFormat.class and SecondInputFormat.class are both custom input formats 
+and
+It has 2 differnt mappers it uses to read two files
+

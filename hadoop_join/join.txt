@@ -1,0 +1,5 @@
+Use PIG /HIVE for joins ., becuase writing joins in map reduce is STONEAGE Technology and we dont live in stone AGE
+But in theory it supports Two types of data sets one that are Ordered and partitioned and sorted , like output of a reducer 
+and the other Joining unordered and non partitioned .
+Either way its a headache. Unordered being a nightmare
+ All the major autors suggest moving away from MR-Code for joins and move to PIG/HIVE
