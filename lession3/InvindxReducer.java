@@ -1,8 +1,17 @@
 package invindx;
 import java.io.IOException;
 import java.util.StringTokenizer;
-
+import java.io.File;
+import java.io.PrintStream;
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.conf.Configured;
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IOUtils;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
@@ -16,66 +25,76 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Collections;
+import java.util.Iterator;
   public class InvindxReducer      
        extends Reducer<Text,Text,Text,Text> {
-Text result =new Text();
+String op;
+private Text result = new Text();
+ public static final String FS_PARAM_NAME = "fs.defaultFS";
+
     public void reduce(Text key, Iterable<Text> values, 
                        Context context
                        ) throws IOException, InterruptedException {
 
-// Get word  occurances in in individual documents
-// mapper emits word filename for every word
+HashMap<String, Integer> map =new HashMap<String, Integer>();
 /*
-from mapper 1
-word1 file1:offset
-word1 file1:offset
-word2 file1:offset
-word3 file1:offset
-from mapper 2
-word1 file2:offset
-word1 file2:offset
-word3 file2:offset
-word5 file2:offset
-REDUCER
-word1 file1 file1 file2 withoffsets
-word2 file1 
-word3 file2
+ Dosent work if you try ot directly write to local files
+PrintWriter writer = new PrintWriter("/home/hduser/Hadoop_learning_path/lession3/reducer.debug", "UTF-8");
 */
+String outputPath="/home/hduser/Hadoop_learning_path/lession3/reducer.debug";
+Path p = new Path(outputpath);
+  Configuration conf = getConf();
+ System.out.println("configured filesystem = " + conf.get(FS_PARAM_NAME));
 
-      int sum = 0;
-int total_wc=0;
-int indv_wc= 0;
-String indv_file="";
-ArrayList<String> valuelist=new ArrayList<String>();
+FileSystem fs = FileSystem.get(conf);
+        if (fs.exists(outputPath)) {
+            System.err.println("output path exists");
+}
+OutputStream  os = fs.create(p);
+// PrintWriter outWriter = new PrintWriter( new PrintStream(os));
 
-
-      for (Text val : values) {
-// add code to create a list with these values and sum it up too because Iterable only traverses oneway Once
-  valuelist.add(val.toString());
-      }
-// this is the total number of times word appeared in the input files
-     total_wc=valuelist.size();
-System.out.println(" total # occurances for "+key+ " "+ Integer.toString(total_wc));
-// Now we need to get unique files with offset this word appears in 
-HashSet<String> hs = new HashSet<String>(valuelist);
-valuelist.clear();
-valuelist.addAll(hs);
-// append our list to string and write result
-
-String listString = "";
-
-for (String s : valuelist)
-{
-String[] file_offset = s.split("0\\+");
-System.out.println(" Array contents "+file_offset[0]+" "+file_offset[1]+ " ");
-    listString += file_offset[1] + "\t" + file_offset[0];
+for (Text text : values) {
+    valuelist.add(text.toString());
 }
 
-System.out.println("un-formated o/p"+"\t"+listString);
-String rs= Integer.toString(total_wc)+ "\t"+ listString;
+// Add filenmaes to map as key and count as number
+for (String val : valuelist) {
 
-System.out.println("formated o/p"+"\t"+rs);
-result.set(rs);
+String file=val.toString();
+if(map.get(file) !=null)
+{
+ Integer i=map.get(file);
+    // remove and add new value
+    map.remove(file);
+     map.put(file,i+1); 
+}
+ else {
+         map.put(file,1);
+}
+}
+
+System.out.println("Hashmap contents");
+String s = new String();
+for(String i: map.keySet())
+{
+String k =i.toString();
+            String value = map.get(i).toString();  
+            s="<"+k + " " + value+">";
+
+byte[] bytes =s.getBytes();
+os.write(bytes);
+os.flush();
+}
+
+// get collection keys and there values - standard hashmap iterate
+
+Iterator<String> keySetIterator = map.keySet().iterator();
+
+while(keySetIterator.hasNext()){
+ String fNames = keySetIterator.next();
+  op=op+" " + fNames + " : " + map.get(key);
+}
+result.set(op);
  context.write(key, result);
     }
   }

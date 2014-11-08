@@ -1,0 +1,26 @@
+Perform a secondary sort by writing custom key and group comparator classes 
+Great example is given in Jees blog
+@http://vangjee.wordpress.com/2012/03/20/secondary-sorting-aka-sorting-values-in-hadoops-mapreduce-programming-paradigm/
+
+Highlevel steps:
+write custom Hadoop CompositeKey class that implements  WritableComparable. This is your compositekey based on your data. This should overwrite all the methods int he interface ex: compareTo , read,get/set for the keys (StokKey class)
+Write a Composite key comparator  (CompositeKeyComparator extends WritableComparator) here we have logic to compare the composite key fields
+Write a naturalkey comparator(NaturalKeyGroupingComparator extends WritableComparator) this is used to Group and bring all recs of same natural key to one bucket otherwise the hash value of compositeky of same natualkey will result in differentvalues hence differnt reducers get same natural key data.
+Write a natural key partitioner for same reasons as above NaturalKeyPartitioner extends Partitioner<StockKey, DoubleWritable>
+finally set the job parameters to use these classes 
+ex:
+job.setPartitionerClass(NaturalKeyPartitioner.class);
+        job.setGroupingComparatorClass(NaturalKeyGroupingComparator.class);
+        job.setSortComparatorClass(CompositeKeyComparator.class);
+
+
+i have included the source code wiht small changes to work for my env
+you cna download and run it 
+
+javac -classpath /usr/local/hadoop/*:/usr/local/hadoop/lib/* -d . *.java 
+
+jar cfm customkey.jar  Manifest.txt customkey
+$HADOOP_HOME/bin/hadoop jar  /home/hduser/Hadoop_learning_path/src/demo/customkey.jar /home/hduser/hadoopData/inputdir/demo.dat /home/hduser/hadoopData/secsortOut/
+
+Performance improvement tips: Using raw comparator improves performance of sorting , becuae WritableComparable compares deserialised objects  and Raw comparator compares raw bytes. 
+Writbale comparator implements rawcomparator., + other utils 

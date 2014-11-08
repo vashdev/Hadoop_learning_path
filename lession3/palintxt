@@ -1,0 +1,4 @@
+
+    the Python philosophy of "ask for forgiveness, not permission" doesn't work well when e.g. in a list you have both iterables and non-iterables and you need to treat each element differently according to it's type (treating iterables on try and non-iterables on except would work, but it would look butt-ugly and misleading)
+    solutions to this problem which attempt to actually iterate over the object (e.g. [x for x in obj]) to check if it's iterable may induce significant performance penalties for large iterables (especially if you just need the first few elements of the iterable, for example) and should be avoided
+

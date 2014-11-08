@@ -15,31 +15,29 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
 import org.apache.hadoop.mapreduce.lib.input.FileSplit;
+
+/* Class to read a text docuemnt as input and emit <word filepath>
+*/
+
 public class InvindxMapper     
 
        extends Mapper<Object, Text, Text, Text>{
-    
-    private final static IntWritable one = new IntWritable(1);
-    private Text word = new Text();
-/* Weired behaviour is if i declare private Text word ,path =new Text() then path variable is NULL i forloop -reason ? Stupid java lang */
-private Text path = new Text();
-    private  List<String> filepathlist = new ArrayList<String>();
- 
     public void map(Object key, Text value, Context context
                     ) throws IOException, InterruptedException {
 
-FileSplit split = (FileSplit) context.getInputSplit();
-// split format is file:0+number(offset)
-   String split_frmt = split.toString();
-System.out.println(" Map Splitfrmt::  " +split_frmt);
-path.set(split_frmt);
-// handle value to create key
-String[] result = value.toString().split("\\s");
+ Text word =new Text();
+Text path ;
 
- for (int x=0; x<result.length; x++){
-        word.set(result[x]);
-        context.write(word, path);
-      }
+FileSplit split = (FileSplit) context.getInputSplit();
+String fName=split.getPath().getName();
+// handle value to create key
+
+String rec = value.toString();
+StringTokenizer tokenizer = new StringTokenizer(rec);
+	while(tokenizer.hasMoreTokens()) {
+						String token = tokenizer.nextToken();
+						context.write(new Text(token.toLowerCase()), new Text(fName));
+      					}
 
     }
   }
