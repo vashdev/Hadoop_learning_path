@@ -1,7 +1,6 @@
 We will try to follow hadoops learning path, I started this because i cannot pay the fees they charge  in hadoop labs ! Lets see if i stay the course ., 
-Introduction and samples will be reffering to HAdoop v1 . since in Yarn the programs cna remain same but the way framework handles workloads is different so we will just skil thru yarn improvements over 1
+Introduction and samples will be reffering to HAdoop v1.2 new mapreduce API. 
 Our lession plan
-i
 Configuring a Hadoop 2.0 Development Environment -Lession1
 Putting data into HDFS using Java    -covered as part of lession1
 Write a distributed grep MapReduce application 
