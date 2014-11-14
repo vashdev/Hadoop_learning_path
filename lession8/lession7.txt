@@ -1,8 +1,0 @@
-
-To read a delimited file 
-1- write a custom mapper by writing custom fileinput format by extending FileInputFormat<LongWritable, Text> and overwriting RecordReader<LongWritable, Text>
-, isSplitable(JobContext context, Path file) 
-AND
-By providing custom recordreader whos job is to use data within split to create  key value pairs
-
-i.e use a loop to add lines untill record delim is found in the split 

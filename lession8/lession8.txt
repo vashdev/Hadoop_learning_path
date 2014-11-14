@@ -1,14 +1,35 @@
 Custom output 
-write multiplefiles based on input key
-simple overriding of one method by extending thea base class MultipleOutputFormat
-Source :http://grepalex.com/2013/05/20/multipleoutputs-part1/
-DOWNSIDE : its only good for mappers Not reducers , reducers wont be able to read these files
-All files have same format cant change format file to file
-Alternative 
-use MultipleOutputs class
-this works wiht both APIs
-Source:http://www.lichun.cc/blog/2013/11/how-to-use-hadoop-multipleoutputs/
+In Hadoop the mapper/Reducer creates  writes to the standard directory with standard naming convention ofmaper- part-r-000# etc.,
+In order to create multiple files with filenames based on input keys use multipleOutput class
+
+But we can achive this by using MultipleOutputs class
+this works with both APIs
  MultipleOutputs.addNamedOutput method is used its usage:
 MultipleOutputs.addNamedOutput(job, fruitOutputName, TextOutputFormat.class, NullWritable.class, Text.class);
 
+input
+fs -cat /home/hduser/hadoopData/file1.txt
+virginia	APPLE   apple
+sunnyvale	BANANA   banana
+virginia	PEAR   pear
+virginia	PEAR   pear2
+virginia	Grape   Grape2
+extraline	VALUE3   value3
+extraline	VALUE3   value3
+
+output
+fs -ls /home/hduser/hadoopData/mosout/
+Found 5 items
+-rw-r--r--   1 hduser supergroup          0 2014-10-23 03:26 /home/hduser/hadoopData/mosout/_SUCCESS
+drwxr-xr-x   - hduser supergroup          0 2014-10-23 03:26 /home/hduser/hadoopData/mosout/_logs
+drwxr-xr-x   - hduser supergroup          0 2014-10-23 03:26 /home/hduser/hadoopData/mosout/extraline
+drwxr-xr-x   - hduser supergroup          0 2014-10-23 03:26 /home/hduser/hadoopData/mosout/sunnyvale
+drwxr-xr-x   - hduser supergroup          0 2014-10-23 03:26 /home/hduser/hadoopData/mosout/virginia
+
+hduser@ubuntu:~/Hadoop_learning_path/lession8$ fs -cat /home/hduser/hadoopData/mosout/virginia/part-00001-file1.txt
+Grape   Grape2
+hduser@ubuntu:~/Hadoop_learning_path/lession8$ fs -cat /home/hduser/hadoopData/mosout/virginia/part-00000-file1.txt
+APPLE   apple
+PEAR   pear
+PEAR   pear2
 
