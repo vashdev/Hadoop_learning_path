@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+example of using OOZIE to define different jobs 
+-->
+<workflow-app xmlns="uri:oozie:workflow:0.2" name="sqoop-wf">
+    <start to="sqoop-node"/>
+
+    <action name="sqoop-node">
+        <sqoop xmlns="uri:oozie:sqoop-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <prepare>
+                <delete path="${sqoop_extract_out}"/>
+            </prepare>
+            <configuration>
+                <property>
+                    <name>mapred.job.queue.name</name>
+                    <value>${queueName}</value>
+                </property>
+            </configuration>
+	        <command>import --connect jdbc:mysql://localhost/mysql --table housing_table --username root --password pingme --target-dir ${sqoop_extract_out} -m 1</command>
+        </sqoop>
+        <ok to="pig-node"/>
+        <error to="fail"/>
+    </action>
+
+    <action name="pig-node">
+        <pig>
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <prepare>
+                <delete path="${pig_out}"/>
+            </prepare>
+            <configuration>
+                <property>
+                    <name>mapred.job.queue.name</name>
+                    <value>${queueName}</value>
+                </property>
+                <property>
+                    <name>mapred.compress.map.output</name>
+                    <value>true</value>
+                </property>
+            </configuration>
+            <script>dtxfrm.pig</script>
+            <param>INPUT=${sqoop_extract_out}</param>
+            <param>OUTPUT=${pig_out}</param>
+        </pig>
+        <ok to="hivejob"/>
+        <error to="fail"/>
+    </action>
+
+ <action name="hivejob">
+        <hive xmlns="uri:oozie:hive-action:0.2">
+<job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <prepare>
+                <delete path="${hive_out_temp}"/>
+            </prepare>
+            <configuration>
+                <property>
+                    <name>mapred.compress.map.output</name>
+                    <value>true</value>
+                </property>
+            </configuration>
+            <script>load_prop.q</script>
+            <param>InputDir=${pig_out}</param>
+            <param>OutputDir=${hive_out_temp}</param>
+        </hive>
+        <ok to="end"/>
+        <error to="fail"/>
+    </action>
+<kill name="fail">
+        <message>jobs failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+ <end name="end"/>
+</workflow-app>

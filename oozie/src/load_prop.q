@@ -1,0 +1,1 @@
+LOAD DATA INPATH '$InputDir/part-m-00000'  OVERWRITE INTO TABLE prop_data_v1 ;
