@@ -1,0 +1,4 @@
+hairy,Own1,Dog,M,2014/05/05,,
+bairy,Own2,Dog,M,2014/06/05,,
+shiny,own3,Cat,M,2014/06/06,,
+Brown,own4,Cow,M,2014,,

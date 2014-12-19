@@ -20,8 +20,6 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 public class ToolGrep extends Configured implements Tool {
  
     public static void main(String[] args) throws Exception {
-System.out.println("debug:Input path -args 0 "+ args[0]);
- System.out.println("debug:output path -args 1"+ args[1]);
 System.out.println("number of Parameter passed "+ args.length);
  
         int res = ToolRunner.run(new Configuration(), new grep.ToolGrep(), args);
@@ -38,7 +36,6 @@ System.out.println("number of Parameter passed "+ args.length);
   // if you get NULLpointerissue for options in mapper - REMEMBER -D should be the first argument to the JAR
 String s_ptrn=conf.get("mapred.mapper.regex");
 System.out.println("debug: in Tool Class mapred.mapper.regex "+s_ptrn + "\n");
- // conf.set("mapred.mapper.regex",args[2]);
         // Create job
         Job job = new Job(conf, "Grep Job");
         job.setJarByClass(ToolGrep.class);
@@ -49,7 +46,7 @@ System.out.println("debug: in Tool Class mapred.mapper.regex "+s_ptrn + "\n");
  
         // Specify Correct key / value from map/reduce
         job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(IntWritable.class);
+        job.setOutputValueClass(Text.class);
  
         // Input
         FileInputFormat.addInputPath(job, new Path(args[0]));

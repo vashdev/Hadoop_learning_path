@@ -13,19 +13,18 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
   public class LongSumReducer
-       extends Reducer<Text,Text,Text,Text> {
+       extends Reducer<Text,IntWritable,Text,IntWritable> {
     private IntWritable result = new IntWritable();
 
-    public void reduce(Text key, Iterable<Text> values, 
+    public void reduce(Text key, Iterable<IntWritable> values, 
                        Context context
                        ) throws IOException, InterruptedException {
 
-// parse values to print for a key 
-String result="";
-for (Text text : values) {
-    result=result+text.toString() + "\n";
-}
-
-      context.write(key, new Text(result));
+      int sum = 0;
+      for (IntWritable val : values) {
+        sum += val.get();
+      }
+      result.set(sum);
+      context.write(key, result);
     }
   }

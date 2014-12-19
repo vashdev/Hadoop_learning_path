@@ -17,7 +17,7 @@ import org.apache.hadoop.conf.Configured;
 
 public class RegexMapper
 
-       extends Mapper<Object, Text, Text, Text>{
+       extends Mapper<Object, Text, Text, IntWritable>{
     
     private final static IntWritable one = new IntWritable(1);
     private Text word = new Text();
@@ -36,11 +36,13 @@ System.out.println("debug: mapred.mapper.regex "+s_ptrn + "\n");
 
 // get record 
           String text = value.toString();
+          String res = "";
 // use matcher object to perform match on pattern
 Matcher matcher = pattern.matcher(text);
     while (matcher.find()) {
 // Write the output to mapper context 
-context.write(new Text(matcher.group(group)), new Text(text));
+ res =  Text(matcher.group(group)) + ":" + text ;
+context.write(new Text(matcher.group(group)), new Text(res));
 }
     }
   }
